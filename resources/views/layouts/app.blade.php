@@ -17,13 +17,13 @@
 
 <body>
 
-  <header>
+  <header class="pb-5">
     <div class="container">
       <div class="row">
         <div class="col-auto me-auto">
-          Dc Comics
+            <img src="/images/dc-logo.png" alt="">
         </div>
-        <nav class="col-auto">
+        <nav class="col-auto d-flex align-items-center">
           <ul class="d-flex">
             <li>
               <a href="{{ route('home') }}">Home</a>

@@ -1,5 +1,9 @@
 @import '~bootstrap/scss/bootstrap';
 
+html {
+    padding: 40px
+}
+
 ul {
     display: flex;
     gap: 30px;
