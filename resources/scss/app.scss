@@ -1,1 +1,7 @@
 @import '~bootstrap/scss/bootstrap';
+
+ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
