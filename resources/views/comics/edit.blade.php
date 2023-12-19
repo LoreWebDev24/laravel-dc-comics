@@ -4,7 +4,7 @@
 
 <section class="py-3">
   <div class="container">
-    <form action="{{ route('comics.update', $comic) }}" method="" >
+    <form action="{{ route('comics.update', $comic) }}" method="POST" >
 
       @csrf
       @method('PUT')
@@ -19,7 +19,7 @@
       </div>
       <div class="mb-3">
         <label for="price" class="form-label">Price</label>
-        <input type="text" class="form-control" name="price" id="price" placeholder="Price" value="{{ $comic->price }}">
+        <input type="number" class="form-control" name="price" id="price" placeholder="Price" value="{{ $comic->price }}">
       </div>
       <div class="mb-3">
         <label for="type" class="form-label">Type</label>
