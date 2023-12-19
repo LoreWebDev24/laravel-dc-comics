@@ -32,8 +32,8 @@
                 <td>{{ $comic->price }}</td>
                 <td>{{ $comic->type }}</td>
                 <td>
-                  <span>edit</span>
-                  <span>delete</span>
+                  <a href="{{ route('comics.edit',$comic) }}"><span>edit</span></a>
+                  <a href="#"><span>delete</span></a>
                 </td>
               </tr>
           @empty
