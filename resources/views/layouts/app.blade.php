@@ -31,6 +31,9 @@
             <li>
               <a href="{{ route('comics.index') }}">Comics</a>
             </li>
+            <li>
+                <a href="{{ route('comics.create') }}" class="btn btn-sm btn-primary">Nuovo Fumetto </a>
+            </li>
           </ul>
         </nav>
       </div>
